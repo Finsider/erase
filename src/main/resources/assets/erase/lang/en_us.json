@@ -1,0 +1,43 @@
+{
+  "text.autoconfig.erase.title": "Erase Configuration",
+
+  "text.autoconfig.erase.option.fogSkySettings": "Fog and Sky Settings",
+  "text.autoconfig.erase.option.fogSkySettings.deleteFog": "Delete Fog",
+  "text.autoconfig.erase.option.fogSkySettings.deleteSky": "Delete Sky",
+  "text.autoconfig.erase.option.fogSkySettings.deleteSkyBackground": "Delete Sky Background",
+  "text.autoconfig.erase.option.fogSkySettings.deleteWeather": "Delete Weather",
+
+  "text.autoconfig.erase.option.inGameHudSettings": "In-Game HUD Settings",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteInGameHud": "Delete In-Game HUD",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteScoreboard": "Delete Scoreboard",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteCrosshair": "Delete Crosshair",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteBossBars": "Delete Boss Bars",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteHotbar": "Delete Hotbar",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteExperienceBar": "Delete Experience Bar",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteHeart": "Delete Heart",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteStatusBars": "Delete Status Bars",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteHeldItemTooltips": "Delete Held Item Tooltips",
+  "text.autoconfig.erase.option.inGameHudSettings.disableTitle": "Disable Title",
+  "text.autoconfig.erase.option.inGameHudSettings.disableSubtitle": "Disable Subtitle",
+  "text.autoconfig.erase.option.inGameHudSettings.disableActionBar": "Disable Action Bar",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteMountHud": "Delete Mount HUD",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteStatusEffectOverlay": "Delete Status Effect Overlay",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteFireOverlay": "Delete Fire Overlay",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteOverlay": "Delete Overlay",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteToasts": "Delete Toasts",
+
+  "text.autoconfig.erase.option.guiSettings": "GUI Settings",
+  "text.autoconfig.erase.option.guiSettings.deleteGui": "Delete GUI",
+  "text.autoconfig.erase.option.guiSettings.deleteGuiBackground": "Delete GUI Background",
+  "text.autoconfig.erase.option.guiSettings.deleteGuiForeground": "Delete GUI Foreground",
+  "text.autoconfig.erase.option.guiSettings.deleteSlotHover": "Delete Slot Hover",
+  "text.autoconfig.erase.option.guiSettings.deleteInventoryTooltip": "Delete Inventory Tooltip",
+
+  "text.autoconfig.erase.option.worldSettings": "World Settings",
+  "text.autoconfig.erase.option.worldSettings.deleteParticle": "Delete Particles",
+  "text.autoconfig.erase.option.worldSettings.deleteLight": "Delete Light (DON'T USE IN SINGLEPLAYER)",
+  "text.autoconfig.erase.option.worldSettings.deleteHand": "Delete Hand",
+  "text.autoconfig.erase.option.worldSettings.deleteWorld": "Delete World",
+  "text.autoconfig.erase.option.worldSettings.deleteEntity": "Delete Entities",
+  "text.autoconfig.erase.option.worldSettings.deleteBlockEntities": "Delete Block Entities"
+}

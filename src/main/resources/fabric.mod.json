@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "erase",
+	"version": "1.0.0",
+	"name": "Erase",
+	"description": "Minecraft rendering types make toggleable!",
+	"authors": [
+		"Finside"
+	],
+	"license": "LGPL-3.0",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.fin.erase.Main"
+		],
+		"modmenu" : [
+			"com.fin.erase.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"erase.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "1.20.1",
+		"sodium": "*",
+		"cloth-config": "*",
+		"java": ">=17"
+	}
+}
