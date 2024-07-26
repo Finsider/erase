@@ -45,5 +45,12 @@
   "text.autoconfig.erase.option.entitySettings.deleteNametag": "Delete Nametags",
   "text.autoconfig.erase.option.entitySettings.deleteLivingEntity": "Delete Living Entities",
   "text.autoconfig.erase.option.entitySettings.deletePlayerEntity": "Delete Player Entities",
-  "text.autoconfig.erase.option.entitySettings.deleteHeadFeatureRenderer": "Delete Skulls / Heads"
+  "text.autoconfig.erase.option.entitySettings.deleteHeadFeatureRenderer": "Delete Head / Skull",
+
+  "text.autoconfig.erase.option.tickSettings": "Tick Settings",
+  "text.autoconfig.erase.option.tickSettings.deleteTicks": "Delete Ticks",
+  "text.autoconfig.erase.option.tickSettings.deleteRandomBlockDisplayTick": "Delete Random Block Display Ticks",
+  "text.autoconfig.erase.option.tickSettings.deleteEntityTicks": "Delete Entity Ticks",
+  "text.autoconfig.erase.option.tickSettings.deleteSoundTick": "Delete Sound Ticks",
+  "text.autoconfig.erase.option.tickSettings.deleteParticleTick": "Delete Particle Ticks"
 }
