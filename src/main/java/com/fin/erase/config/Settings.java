@@ -22,10 +22,9 @@ public class Settings implements ConfigData {
     @ConfigEntry.Gui.CollapsibleObject
     public InGameHudSettings inGameHudSettings = new InGameHudSettings();
     public static class InGameHudSettings {
-
-        @Comment("Disabling this will disable everything else on this category.")
+        @Comment("Disabling this will disable everything else on this category, except for toasts")
         public boolean deleteInGameHud = false;
-
+        public boolean deleteToasts = false;
         public boolean deleteScoreboard = false;
         public boolean deleteBossBars = false;
         public boolean deleteCrosshair = false;
@@ -42,7 +41,6 @@ public class Settings implements ConfigData {
         public boolean deleteMountHud = false;
         public boolean deleteStatusEffectOverlay = false;
         public boolean deleteFireOverlay = false;
-        public boolean deleteToasts = false;
 
         @Comment("this includes spyglass, pumpkin, freeze, portal, nausea.")
         public boolean deleteOverlay = false;
@@ -64,14 +62,39 @@ public class Settings implements ConfigData {
     @ConfigEntry.Gui.CollapsibleObject
     public WorldSettings worldSettings = new WorldSettings();
     public static class WorldSettings {
+    @Comment("For even more performance, you can also delete Particle Ticks on Tick Settings")
     public boolean deleteParticle = false;
     @Comment("(requires game restart if sodium is present), enabling this will broke world saving, so don't use it in singleplayer.")
     public boolean deleteLight = false;
     public boolean deleteHand = false;
     public boolean deleteWorld = false;
-    public boolean deleteEntity = false;
 
     @Comment("(requires sodium), this deletes beacon beam, player heads, sign TEXT, chests.")
     public boolean deleteBlockEntities = false;
+    }
+
+    @ConfigEntry.Gui.CollapsibleObject
+    public EntitySettings entitySettings = new EntitySettings();
+    public static class EntitySettings {
+        @Comment("Disabling this will disable everything else in this category.")
+        public boolean deleteEntity = false;
+        public boolean deleteNametag = false;
+        @Comment("Disabling this will also disable player rendering.")
+        public boolean deleteLivingEntity = false;
+        public boolean deletePlayerEntity = false;
+        @Comment("Disabling this will improve FPS Significantly on MCC Island")
+        public boolean deleteHeadFeatureRenderer = false;
+    }
+
+    @Comment("Not recommended at all, use with caution.")
+    @ConfigEntry.Gui.CollapsibleObject
+    public tickSettings tickSettings = new tickSettings();
+    public static class tickSettings {
+        @Comment("Disabling this will disable everything else in this category, saves some CPU time.")
+        public boolean deleteTicks = false;
+        public boolean deleteRandomBlockDisplayTick = false;
+        public boolean deleteEntityTicks = false;
+        public boolean deleteSoundTick = false;
+        public boolean deleteParticleTick = false;
     }
 }

@@ -6,22 +6,32 @@
     "defaultRequire": 1
   },
   "client": [
-    "backgroundrenderer",
-    "blockentityrenderdispatcher",
-    "bossbarhud",
-    "entityrenderdispatcher",
-    "gamerenderer",
-    "handledscreen",
-    "ingamehud",
-    "ingameoverlay",
-    "lightmaptexturemanager",
-    "particlemanager",
-    "screen",
-    "toastmanager",
-    "worldrenderer"
+    "entity.EntityRenderDispatcherMixin",
+    "entity.EntityRendererMixin",
+    "entity.HeadFeatureRendererMixin",
+    "entity.LivingEntityRendererMixin",
+    "entity.PlayerEntityRendererMixin",
+    "entity.WorldRendererMixin",
+    "gui.HandledScreenMixin",
+    "gui.ScreenMixin",
+    "hud.BossBarHudMixin",
+    "hud.InGameHudMixin",
+    "hud.InGameOverlayMixin",
+    "hud.ToastManagerMixin",
+    "skyfog.BackgroundRendererMixin",
+    "skyfog.WorldRendererMixin",
+    "tick.ClientWorldMixin",
+    "tick.MinecraftClientMixin",
+    "tick.ParticleManagerMixin",
+    "tick.SoundManagerMixin",
+    "world.BlockEntityRenderDispatcherMixin",
+    "world.GameRendererMixin",
+    "world.LightmapTextureManagerMixin",
+    "world.ParticleManagerMixin",
+    "world.WorldRendererMixin"
   ],
   "mixins": [
-    "lightingprovider",
-    "sodiumworldrenderer"
+    "world.LightingProviderMixin",
+    "world.SodiumWorldRendererMixin"
   ]
 }

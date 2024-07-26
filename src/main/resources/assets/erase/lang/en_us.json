@@ -9,9 +9,10 @@
 
   "text.autoconfig.erase.option.inGameHudSettings": "In-Game HUD Settings",
   "text.autoconfig.erase.option.inGameHudSettings.deleteInGameHud": "Delete In-Game HUD",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteToasts": "Delete Toasts",
   "text.autoconfig.erase.option.inGameHudSettings.deleteScoreboard": "Delete Scoreboard",
-  "text.autoconfig.erase.option.inGameHudSettings.deleteCrosshair": "Delete Crosshair",
   "text.autoconfig.erase.option.inGameHudSettings.deleteBossBars": "Delete Boss Bars",
+  "text.autoconfig.erase.option.inGameHudSettings.deleteCrosshair": "Delete Crosshair",
   "text.autoconfig.erase.option.inGameHudSettings.deleteHotbar": "Delete Hotbar",
   "text.autoconfig.erase.option.inGameHudSettings.deleteExperienceBar": "Delete Experience Bar",
   "text.autoconfig.erase.option.inGameHudSettings.deleteHeart": "Delete Heart",
@@ -24,7 +25,6 @@
   "text.autoconfig.erase.option.inGameHudSettings.deleteStatusEffectOverlay": "Delete Status Effect Overlay",
   "text.autoconfig.erase.option.inGameHudSettings.deleteFireOverlay": "Delete Fire Overlay",
   "text.autoconfig.erase.option.inGameHudSettings.deleteOverlay": "Delete Overlay",
-  "text.autoconfig.erase.option.inGameHudSettings.deleteToasts": "Delete Toasts",
 
   "text.autoconfig.erase.option.guiSettings": "GUI Settings",
   "text.autoconfig.erase.option.guiSettings.deleteGui": "Delete GUI",
@@ -38,6 +38,12 @@
   "text.autoconfig.erase.option.worldSettings.deleteLight": "Delete Light (DON'T USE IN SINGLEPLAYER)",
   "text.autoconfig.erase.option.worldSettings.deleteHand": "Delete Hand",
   "text.autoconfig.erase.option.worldSettings.deleteWorld": "Delete World",
-  "text.autoconfig.erase.option.worldSettings.deleteEntity": "Delete Entities",
-  "text.autoconfig.erase.option.worldSettings.deleteBlockEntities": "Delete Block Entities"
+  "text.autoconfig.erase.option.worldSettings.deleteBlockEntities": "Delete Block Entities",
+
+  "text.autoconfig.erase.option.entitySettings": "Entity Settings",
+  "text.autoconfig.erase.option.entitySettings.deleteEntity": "Delete Entities",
+  "text.autoconfig.erase.option.entitySettings.deleteNametag": "Delete Nametags",
+  "text.autoconfig.erase.option.entitySettings.deleteLivingEntity": "Delete Living Entities",
+  "text.autoconfig.erase.option.entitySettings.deletePlayerEntity": "Delete Player Entities",
+  "text.autoconfig.erase.option.entitySettings.deleteHeadFeatureRenderer": "Delete Skulls / Heads"
 }
